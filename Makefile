@@ -14,6 +14,11 @@ pre-commit-file:  ## pre-commit for a single file: pre-commit-file fl=<file>
 	@test -n "$(fl)" || { echo "fl= not specified"; exit 1; }
 	@test -f "$(fl)" || { echo "$(fl) does not exist"; exit 1; }
 	pre-commit run --files $(fl)
+
+.PHONY: javascript-variables
+javascript-variables:  ## example of javascript variables
+	node ./javascript-fundamentals/variables.js
+
 .PHONY: oxlint
 oxlint:  ## lint javascript files
 	oxlint javascript-fundamentals/*.js
