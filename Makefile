@@ -7,7 +7,7 @@ help:  ## help for this Makefile
 
 .PHONY: tmux
 tmux:  ## start tmux
-	tmuxp load tmux.yaml
+	tmuxp load .tmux.yaml
 
 .PHONY: pre-commit-file
 pre-commit-file:  ## pre-commit for a single file: pre-commit-file fl=<file>
