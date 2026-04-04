@@ -1,5 +1,7 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
+#
+# Make sure oxlint is in the PATH
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.2.0
@@ -14,4 +16,11 @@ repos:
         name: oxlint javascript and typescript checker
         language: system
         entry: oxlint --deny-warnings
+        types_or: [javascript]
+-   repo: local
+    hooks:
+    -   id: oxfmt_preinstalled
+        name: oxfmt javascript and typescript formatter
+        language: system
+        entry: oxfmt
         types_or: [javascript]
