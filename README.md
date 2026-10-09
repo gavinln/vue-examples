@@ -12,11 +12,11 @@ Vue.js examples
 
 [Crash course][200]
 
-https://www.youtube.com/watch?v=VeNfHj6MhgA
+[200]: https://www.youtube.com/watch?v=VeNfHj6MhgA
 
 [Multiple tutorials][210]
 
-https://www.youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1
+[210]: https://www.youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1
 
 ## Try this for node.js
 
