@@ -19,6 +19,10 @@ pre-commit-file:  ## pre-commit for a single file: pre-commit-file fl=<file>
 javascript-variables:  ## example of javascript variables
 	node ./javascript-fundamentals/variables.js
 
+.PHONY: markdownlint
+markdownlint:  ## run markdown file lint
+	markdownlint --disable MD029 MD040 -- '**/*.md'
+
 .PHONY: oxlint
 oxlint:  ## lint javascript files
 	oxlint javascript-fundamentals/*.js
