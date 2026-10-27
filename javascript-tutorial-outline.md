@@ -1,9 +1,9 @@
 # Javascript Tutorial Outline
 
-1.1 An Introduction to JavaScript
-1.2 Manuals and specifications
-1.3 Code editors
-1.4 Developer console
+1.1. An Introduction to JavaScript
+1.2. Manuals and specifications
+1.3. Code editors
+1.4. Developer console
 
 ## JavaScript Fundamentals
 
