@@ -2,6 +2,8 @@
 
 Vue.js examples
 
+TODO: rename project to javascript
+
 ## Introduction
 
 [Written introduction][100]
