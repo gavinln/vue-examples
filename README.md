@@ -47,8 +47,6 @@ echo "npx lint-staged" > .husky/pre-commit
 
 DOES NOT WORK
 
-https://github.com/oxc-project/mirrors-oxlint
-
 ```
 -   repo: https://github.com/oxc-project/mirrors-oxlint
     rev: v1.58.0
